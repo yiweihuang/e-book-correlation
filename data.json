@@ -1,0 +1,2099 @@
+[
+    {
+        "FDM": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4"
+            ]
+        },
+        "FIFO": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4"
+            ]
+        }
+    },
+    {
+        "HTTP": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-11",
+                "網路基礎-1",
+                "網路基礎-13.14"
+            ]
+        },
+        "gateway": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-2",
+                "Internetworking-2"
+            ]
+        }
+    },
+    {
+        "CA": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-14",
+                "Wireless LAN-9",
+                "Wireless LAN-13"
+            ]
+        },
+        "DIFS": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-7",
+                "Wireless LAN-9",
+                "Wireless LAN-12",
+                "Wireless LAN-8",
+                "Wireless LAN-10"
+            ]
+        }
+    },
+    {
+        "IP": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12"
+            ]
+        },
+        "MAC": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14"
+            ]
+        }
+    },
+    {
+        "encoding": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-5"
+            ]
+        }
+    },
+    {
+        "LAN": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        },
+        "congestion": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-4",
+                "Transport-Protocols-9",
+                "Transport-Protocols-9",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-10",
+                "Transport-Protocols-10",
+                "Transport-Protocols-10"
+            ]
+        }
+    },
+    {
+        "reliable": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-3"
+            ]
+        },
+        "service": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-1",
+                "Transport-Protocols-2"
+            ]
+        },
+        "transfer": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16"
+            ]
+        }
+    },
+    {
+        "rate": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-8"
+            ]
+        },
+        "transmission": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-8"
+            ]
+        }
+    },
+    {
+        "reliability": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-3"
+            ]
+        }
+    },
+    {
+        "SNMP": {
+            "order": 6,
+            "video_name": [
+                "VLAN-4"
+            ]
+        }
+    },
+    {
+        "frame": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        },
+        "node": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-17",
+                "Internetworking-17",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-20"
+            ]
+        },
+        "path": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-20"
+            ]
+        },
+        "request": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-14",
+                "Wireless LAN-14",
+                "Wireless LAN-3",
+                "Wireless LAN-3",
+                "Wireless LAN-11"
+            ]
+        },
+        "router": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-8",
+                "Internetworking-8",
+                "Internetworking-7",
+                "Internetworking-7",
+                "Internetworking-11",
+                "Internetworking-11",
+                "Internetworking-17",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-3",
+                "Internetworking-3",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-10",
+                "Internetworking-10",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-1",
+                "Internetworking-1",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-9"
+            ]
+        },
+        "segment": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-6"
+            ]
+        }
+    },
+    {
+        "sequence": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-7",
+                "Transport-Protocols-7",
+                "Transport-Protocols-5"
+            ]
+        }
+    },
+    {
+        "IEEE": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-10"
+            ]
+        }
+    },
+    {
+        "terminal": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-2",
+                "Wireless LAN-2",
+                "Wireless LAN-14"
+            ]
+        }
+    },
+    {
+        "frame": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        },
+        "node": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-17",
+                "Internetworking-17",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-20"
+            ]
+        },
+        "path": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-20"
+            ]
+        },
+        "router": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-8",
+                "Internetworking-8",
+                "Internetworking-7",
+                "Internetworking-7",
+                "Internetworking-11",
+                "Internetworking-11",
+                "Internetworking-17",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-3",
+                "Internetworking-3",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-10",
+                "Internetworking-10",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-1",
+                "Internetworking-1",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-9"
+            ]
+        }
+    },
+    {
+        "CS": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-2"
+            ]
+        }
+    },
+    {
+        "filtering": {
+            "order": 6,
+            "video_name": [
+                "VLAN-9"
+            ]
+        }
+    },
+    {
+        "format": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-1"
+            ]
+        }
+    },
+    {
+        "database": {
+            "order": 6,
+            "video_name": [
+                "VLAN-9",
+                "VLAN-8",
+                "VLAN-8"
+            ]
+        },
+        "domain": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-1"
+            ]
+        },
+        "root": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-8",
+                "spanning tree algorithm-8",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-5",
+                "spanning tree algorithm-5",
+                "spanning tree algorithm-9",
+                "spanning tree algorithm-9",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-10",
+                "spanning tree algorithm-10"
+            ]
+        }
+    },
+    {
+        "distance": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-17",
+                "Internetworking-17",
+                "Internetworking-2",
+                "Internetworking-19",
+                "Internetworking-20",
+                "Internetworking-1"
+            ]
+        }
+    },
+    {
+        "collision": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-1"
+            ]
+        }
+    },
+    {
+        "multiplexing": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4",
+                "網路基礎-4"
+            ]
+        }
+    },
+    {
+        "layer2": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-11",
+                "網路基礎-11",
+                "網路基礎-11",
+                "網路基礎-9"
+            ]
+        }
+    },
+    {
+        "CA": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-14",
+                "Wireless LAN-9",
+                "Wireless LAN-13"
+            ]
+        }
+    },
+    {
+        "logical": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-9",
+                "Internetworking-9"
+            ]
+        }
+    },
+    {
+        "Ethernet": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-10"
+            ]
+        },
+        "database": {
+            "order": 6,
+            "video_name": [
+                "VLAN-9",
+                "VLAN-8",
+                "VLAN-8"
+            ]
+        }
+    },
+    {
+        "buffer": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-3",
+                "Transport-Protocols-2",
+                "Transport-Protocols-2",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8"
+            ]
+        },
+        "receiver": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-4",
+                "Transport-Protocols-4",
+                "Transport-Protocols-3",
+                "Transport-Protocols-2",
+                "Transport-Protocols-2",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-7",
+                "Transport-Protocols-7",
+                "Transport-Protocols-7"
+            ]
+        }
+    },
+    {
+        "polling": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-14",
+                "Wireless LAN-3",
+                "Wireless LAN-12"
+            ]
+        }
+    },
+    {
+        "frame": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        },
+        "node": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-17",
+                "Internetworking-17",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-20"
+            ]
+        },
+        "path": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-20"
+            ]
+        },
+        "router": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-8",
+                "Internetworking-8",
+                "Internetworking-7",
+                "Internetworking-7",
+                "Internetworking-11",
+                "Internetworking-11",
+                "Internetworking-17",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-3",
+                "Internetworking-3",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-10",
+                "Internetworking-10",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-1",
+                "Internetworking-1",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-9"
+            ]
+        },
+        "segment": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-6"
+            ]
+        }
+    },
+    {
+        "communication": {
+            "order": 7,
+            "video_name": [
+                "Reliable Transmission-1"
+            ]
+        },
+        "reliable": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-3"
+            ]
+        },
+        "service": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-1",
+                "Transport-Protocols-2"
+            ]
+        },
+        "transfer": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16"
+            ]
+        }
+    },
+    {
+        "avoidance": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12"
+            ]
+        }
+    },
+    {
+        "state": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-5",
+                "Transport-Protocols-5"
+            ]
+        }
+    },
+    {
+        "priority": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-9",
+                "Wireless LAN-8"
+            ]
+        }
+    },
+    {
+        "Ethernet": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-10"
+            ]
+        },
+        "multicast": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7"
+            ]
+        }
+    },
+    {
+        "retransmission": {
+            "order": 7,
+            "video_name": [
+                "Reliable Transmission-1",
+                "Reliable Transmission-9,10"
+            ]
+        }
+    },
+    {
+        "loop": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-2",
+                "spanning tree algorithm-11",
+                "spanning tree algorithm-5"
+            ]
+        }
+    },
+    {
+        "presentation": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16",
+                "網路基礎-13.14",
+                "網路基礎-13.14"
+            ]
+        }
+    },
+    {
+        "unreliable": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-1"
+            ]
+        }
+    },
+    {
+        "queue": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-2"
+            ]
+        }
+    },
+    {
+        "performance": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-1"
+            ]
+        }
+    },
+    {
+        "carrier": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-6",
+                "Ethernet-9",
+                "Ethernet-9",
+                "Ethernet-7",
+                "Ethernet-2"
+            ]
+        }
+    },
+    {
+        "interconnection": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-7"
+            ]
+        }
+    },
+    {
+        "gateway": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-2",
+                "Internetworking-2"
+            ]
+        }
+    },
+    {
+        "buffer": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-3",
+                "Transport-Protocols-2",
+                "Transport-Protocols-2",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8"
+            ]
+        },
+        "delay": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-3",
+                "Transport-Protocols-2"
+            ]
+        },
+        "receiver": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-4",
+                "Transport-Protocols-4",
+                "Transport-Protocols-3",
+                "Transport-Protocols-2",
+                "Transport-Protocols-2",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-7",
+                "Transport-Protocols-7",
+                "Transport-Protocols-7"
+            ]
+        }
+    },
+    {
+        "BGP": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-2",
+                "Internetworking-2"
+            ]
+        }
+    },
+    {
+        "mask": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-8",
+                "Internetworking-8",
+                "Internetworking-12.13.14",
+                "Internetworking-9",
+                "Internetworking-9",
+                "Internetworking-9",
+                "Internetworking-9"
+            ]
+        }
+    },
+    {
+        "delay": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-3",
+                "Transport-Protocols-2"
+            ]
+        },
+        "link": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-2",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-1",
+                "Internetworking-1"
+            ]
+        },
+        "rate": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-8"
+            ]
+        },
+        "transmission": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-8"
+            ]
+        }
+    },
+    {
+        "Virtual": {
+            "order": 6,
+            "video_name": [
+                "VLAN-1",
+                "VLAN-1",
+                "VLAN-1",
+                "VLAN-1",
+                "VLAN-2"
+            ]
+        }
+    },
+    {
+        "algorithm": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-15.16",
+                "Internetworking-9"
+            ]
+        },
+        "architecture": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-1"
+            ]
+        },
+        "routing": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7",
+                "Internetworking-7",
+                "Internetworking-11",
+                "Internetworking-17",
+                "Internetworking-17",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-18",
+                "Internetworking-18",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-10",
+                "Internetworking-10",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-1",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-9"
+            ]
+        },
+        "security": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-3"
+            ]
+        }
+    },
+    {
+        "algorithm": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-15.16",
+                "Internetworking-9"
+            ]
+        },
+        "architecture": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-1"
+            ]
+        }
+    },
+    {
+        "MAC": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14"
+            ]
+        },
+        "datagram": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-6",
+                "Internetworking-3",
+                "Internetworking-5"
+            ]
+        },
+        "segment": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-6"
+            ]
+        }
+    },
+    {
+        "configuration": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-10"
+            ]
+        }
+    },
+    {
+        "LAN": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        },
+        "bandwidth": {
+            "order": 7,
+            "video_name": [
+                "Reliable Transmission-2",
+                "Reliable Transmission-2",
+                "Reliable Transmission-7"
+            ]
+        },
+        "communication": {
+            "order": 7,
+            "video_name": [
+                "Reliable Transmission-1"
+            ]
+        }
+    },
+    {
+        "CSMA": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-14",
+                "Wireless LAN-9",
+                "Wireless LAN-13"
+            ]
+        }
+    },
+    {
+        "hub": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-3",
+                "Ethernet-3",
+                "Ethernet-3",
+                "Ethernet-10"
+            ]
+        }
+    },
+    {
+        "window": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-9",
+                "Transport-Protocols-9",
+                "Transport-Protocols-9",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-10",
+                "Transport-Protocols-10",
+                "Transport-Protocols-10"
+            ]
+        }
+    },
+    {
+        "sense": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-12"
+            ]
+        },
+        "structure": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16"
+            ]
+        }
+    },
+    {
+        "fragmentation": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-3"
+            ]
+        }
+    },
+    {
+        "RTS": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-10",
+                "Wireless LAN-10",
+                "Wireless LAN-11",
+                "Wireless LAN-11"
+            ]
+        },
+        "beacon": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-3",
+                "Wireless LAN-5"
+            ]
+        }
+    },
+    {
+        "fiber": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-10"
+            ]
+        },
+        "threshold": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-10"
+            ]
+        }
+    },
+    {
+        "delay": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-3",
+                "Transport-Protocols-2"
+            ]
+        },
+        "link": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-2",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-1",
+                "Internetworking-1"
+            ]
+        },
+        "rate": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-8"
+            ]
+        }
+    },
+    {
+        "bandwidth": {
+            "order": 7,
+            "video_name": [
+                "Reliable Transmission-2",
+                "Reliable Transmission-2",
+                "Reliable Transmission-7"
+            ]
+        },
+        "congestion": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-4",
+                "Transport-Protocols-9",
+                "Transport-Protocols-9",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-10",
+                "Transport-Protocols-10",
+                "Transport-Protocols-10"
+            ]
+        },
+        "state": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-5",
+                "Transport-Protocols-5"
+            ]
+        },
+        "throughput": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12"
+            ]
+        }
+    },
+    {
+        "SIFS": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-9"
+            ]
+        }
+    },
+    {
+        "statistical": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4",
+                "網路基礎-4"
+            ]
+        }
+    },
+    {
+        "ACK": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-5"
+            ]
+        },
+        "AP": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-15.16"
+            ]
+        },
+        "response": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-8",
+                "Wireless LAN-5",
+                "Wireless LAN-5"
+            ]
+        }
+    },
+    {
+        "TDM": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4"
+            ]
+        },
+        "distribution": {
+            "order": 6,
+            "video_name": [
+                "VLAN-2"
+            ]
+        },
+        "threshold": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-10"
+            ]
+        }
+    },
+    {
+        "LAN": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        }
+    },
+    {
+        "detection": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-6",
+                "Ethernet-7",
+                "Ethernet-7"
+            ]
+        }
+    },
+    {
+        "forwarding": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-2",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-15.16"
+            ]
+        }
+    },
+    {
+        "bandwidth": {
+            "order": 7,
+            "video_name": [
+                "Reliable Transmission-2",
+                "Reliable Transmission-2",
+                "Reliable Transmission-7"
+            ]
+        },
+        "state": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-5",
+                "Transport-Protocols-5"
+            ]
+        },
+        "throughput": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12"
+            ]
+        }
+    },
+    {
+        "OSPF": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-2"
+            ]
+        },
+        "configuration": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-10"
+            ]
+        }
+    },
+    {
+        "fragment": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-6",
+                "Internetworking-3",
+                "Internetworking-3"
+            ]
+        }
+    },
+    {
+        "security": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-3"
+            ]
+        }
+    },
+    {
+        "MAC": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14"
+            ]
+        }
+    },
+    {
+        "response": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-8",
+                "Wireless LAN-5",
+                "Wireless LAN-5"
+            ]
+        },
+        "switch": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7",
+                "Internetworking-7"
+            ]
+        }
+    },
+    {
+        "database": {
+            "order": 6,
+            "video_name": [
+                "VLAN-9",
+                "VLAN-8",
+                "VLAN-8"
+            ]
+        },
+        "domain": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-1"
+            ]
+        },
+        "root": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-8",
+                "spanning tree algorithm-8",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-5",
+                "spanning tree algorithm-5",
+                "spanning tree algorithm-9",
+                "spanning tree algorithm-9",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-10",
+                "spanning tree algorithm-10"
+            ]
+        }
+    },
+    {
+        "TDM": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4"
+            ]
+        },
+        "distribution": {
+            "order": 6,
+            "video_name": [
+                "VLAN-2"
+            ]
+        }
+    },
+    {
+        "propagation": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-8"
+            ]
+        }
+    },
+    {
+        "Registration": {
+            "order": 6,
+            "video_name": [
+                "VLAN-4"
+            ]
+        }
+    },
+    {
+        "present": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-13.14"
+            ]
+        }
+    },
+    {
+        "broadcast": {
+            "order": 6,
+            "video_name": [
+                "VLAN-1"
+            ]
+        }
+    },
+    {
+        "local": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-1"
+            ]
+        }
+    },
+    {
+        "communication": {
+            "order": 7,
+            "video_name": [
+                "Reliable Transmission-1"
+            ]
+        },
+        "reliable": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-3"
+            ]
+        },
+        "service": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-1",
+                "Transport-Protocols-2"
+            ]
+        },
+        "transport": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12"
+            ]
+        },
+        "wireless": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-1",
+                "Internetworking-15.16"
+            ]
+        }
+    },
+    {
+        "frame": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        },
+        "node": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-17",
+                "Internetworking-17",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-20"
+            ]
+        },
+        "path": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-20"
+            ]
+        },
+        "router": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-8",
+                "Internetworking-8",
+                "Internetworking-7",
+                "Internetworking-7",
+                "Internetworking-11",
+                "Internetworking-11",
+                "Internetworking-17",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-3",
+                "Internetworking-3",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-10",
+                "Internetworking-10",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-1",
+                "Internetworking-1",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-9"
+            ]
+        },
+        "switch": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7",
+                "Internetworking-7"
+            ]
+        }
+    },
+    {
+        "hidden": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-2",
+                "Wireless LAN-2",
+                "Wireless LAN-2",
+                "Wireless LAN-14",
+                "Wireless LAN-14"
+            ]
+        }
+    },
+    {
+        "hub": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-3",
+                "Ethernet-3",
+                "Ethernet-3",
+                "Ethernet-10"
+            ]
+        },
+        "signal": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-9"
+            ]
+        }
+    },
+    {
+        "CTS": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-8",
+                "Wireless LAN-10",
+                "Wireless LAN-10",
+                "Wireless LAN-11",
+                "Wireless LAN-11"
+            ]
+        },
+        "RTS": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-10",
+                "Wireless LAN-10",
+                "Wireless LAN-11",
+                "Wireless LAN-11"
+            ]
+        },
+        "beacon": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-3",
+                "Wireless LAN-5"
+            ]
+        }
+    },
+    {
+        "binary": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-9"
+            ]
+        }
+    },
+    {
+        "bus": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-3",
+                "Ethernet-1",
+                "Ethernet-1",
+                "Ethernet-10",
+                "Ethernet-10"
+            ]
+        }
+    },
+    {
+        "reliable": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-3"
+            ]
+        },
+        "service": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-1",
+                "Transport-Protocols-2"
+            ]
+        },
+        "transfer": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16"
+            ]
+        }
+    },
+    {
+        "congested": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4"
+            ]
+        }
+    },
+    {
+        "VLAN": {
+            "order": 6,
+            "video_name": [
+                "VLAN-4",
+                "VLAN-4",
+                "VLAN-4",
+                "VLAN-9",
+                "VLAN-9",
+                "VLAN-9",
+                "VLAN-9",
+                "VLAN-6",
+                "VLAN-6",
+                "VLAN-6",
+                "VLAN-1",
+                "VLAN-5",
+                "VLAN-5",
+                "VLAN-5",
+                "VLAN-3",
+                "VLAN-3",
+                "VLAN-3",
+                "VLAN-3",
+                "VLAN-8",
+                "VLAN-8",
+                "VLAN-8",
+                "VLAN-8",
+                "VLAN-2",
+                "VLAN-2",
+                "VLAN-7",
+                "VLAN-7",
+                "VLAN-7",
+                "VLAN-7",
+                "VLAN-10",
+                "VLAN-10",
+                "VLAN-10"
+            ]
+        },
+        "encoding": {
+            "order": 3,
+            "video_name": [
+                "Ethernet-5"
+            ]
+        }
+    },
+    {
+        "RIP": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7",
+                "Internetworking-2"
+            ]
+        }
+    },
+    {
+        "reassembly": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-3"
+            ]
+        }
+    },
+    {
+        "spanning": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7"
+            ]
+        }
+    },
+    {
+        "ACK": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-5"
+            ]
+        },
+        "AP": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-15.16"
+            ]
+        }
+    },
+    {
+        "database": {
+            "order": 6,
+            "video_name": [
+                "VLAN-9",
+                "VLAN-8",
+                "VLAN-8"
+            ]
+        },
+        "domain": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-1"
+            ]
+        },
+        "root": {
+            "order": 5,
+            "video_name": [
+                "spanning tree algorithm-8",
+                "spanning tree algorithm-8",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-7",
+                "spanning tree algorithm-5",
+                "spanning tree algorithm-5",
+                "spanning tree algorithm-9",
+                "spanning tree algorithm-9",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-6",
+                "spanning tree algorithm-10",
+                "spanning tree algorithm-10"
+            ]
+        }
+    },
+    {
+        "FDM": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4"
+            ]
+        },
+        "FIFO": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-4"
+            ]
+        }
+    },
+    {
+        "encapsulation": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-7"
+            ]
+        }
+    },
+    {
+        "network": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-11",
+                "Internetworking-1",
+                "Internetworking-15.16"
+            ]
+        },
+        "transport": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12"
+            ]
+        },
+        "wireless": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-1",
+                "Internetworking-15.16"
+            ]
+        }
+    },
+    {
+        "RTT": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-9",
+                "Transport-Protocols-9",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-11.12",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-6",
+                "Transport-Protocols-6",
+                "Transport-Protocols-6",
+                "Transport-Protocols-10"
+            ]
+        }
+    },
+    {
+        "shortest": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-20"
+            ]
+        }
+    },
+    {
+        "algorithm": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-15.16",
+                "Internetworking-9"
+            ]
+        },
+        "architecture": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-1"
+            ]
+        }
+    },
+    {
+        "tree": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7"
+            ]
+        }
+    },
+    {
+        "scanning": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-5"
+            ]
+        }
+    },
+    {
+        "frame": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        },
+        "path": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-20"
+            ]
+        },
+        "request": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-14",
+                "Wireless LAN-14",
+                "Wireless LAN-3",
+                "Wireless LAN-3",
+                "Wireless LAN-11"
+            ]
+        },
+        "router": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-4",
+                "Internetworking-8",
+                "Internetworking-8",
+                "Internetworking-7",
+                "Internetworking-7",
+                "Internetworking-11",
+                "Internetworking-11",
+                "Internetworking-17",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-2",
+                "Internetworking-3",
+                "Internetworking-3",
+                "Internetworking-18",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-19",
+                "Internetworking-10",
+                "Internetworking-10",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-20",
+                "Internetworking-1",
+                "Internetworking-1",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-15.16",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-5",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-12.13.14",
+                "Internetworking-9"
+            ]
+        },
+        "segment": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-6"
+            ]
+        }
+    },
+    {
+        "UDP": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12"
+            ]
+        }
+    },
+    {
+        "frame": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-4"
+            ]
+        },
+        "request": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-14",
+                "Wireless LAN-14",
+                "Wireless LAN-3",
+                "Wireless LAN-3",
+                "Wireless LAN-11"
+            ]
+        },
+        "response": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-8",
+                "Wireless LAN-5",
+                "Wireless LAN-5"
+            ]
+        },
+        "switch": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7",
+                "Internetworking-7"
+            ]
+        }
+    },
+    {
+        "delay": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-3",
+                "Transport-Protocols-2"
+            ]
+        },
+        "queue": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-2"
+            ]
+        },
+        "receiver": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-4",
+                "Transport-Protocols-4",
+                "Transport-Protocols-3",
+                "Transport-Protocols-2",
+                "Transport-Protocols-2",
+                "Transport-Protocols-8",
+                "Transport-Protocols-8",
+                "Transport-Protocols-7",
+                "Transport-Protocols-7",
+                "Transport-Protocols-7"
+            ]
+        }
+    },
+    {
+        "ACK": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-5"
+            ]
+        },
+        "AP": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-15.16"
+            ]
+        }
+    },
+    {
+        "ISO": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-7"
+            ]
+        },
+        "OSI": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16",
+                "網路基礎-7"
+            ]
+        }
+    },
+    {
+        "session": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16",
+                "網路基礎-13.14",
+                "網路基礎-13.14"
+            ]
+        }
+    },
+    {
+        "bridge": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-7",
+                "Internetworking-7"
+            ]
+        }
+    },
+    {
+        "network": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-11",
+                "Internetworking-1",
+                "Internetworking-15.16"
+            ]
+        },
+        "transfer": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16"
+            ]
+        },
+        "transport": {
+            "order": 9,
+            "video_name": [
+                "Transport-Protocols-11.12"
+            ]
+        },
+        "wireless": {
+            "order": 8,
+            "video_name": [
+                "Internetworking-1",
+                "Internetworking-15.16"
+            ]
+        }
+    },
+    {
+        "sense": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-12"
+            ]
+        },
+        "structure": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16"
+            ]
+        }
+    },
+    {
+        "fiber": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-10"
+            ]
+        }
+    },
+    {
+        "CTS": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-8",
+                "Wireless LAN-10",
+                "Wireless LAN-10",
+                "Wireless LAN-11",
+                "Wireless LAN-11"
+            ]
+        },
+        "RTS": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-10",
+                "Wireless LAN-10",
+                "Wireless LAN-11",
+                "Wireless LAN-11"
+            ]
+        },
+        "beacon": {
+            "order": 4,
+            "video_name": [
+                "Wireless LAN-3",
+                "Wireless LAN-5"
+            ]
+        }
+    },
+    {
+        "OSI": {
+            "order": 2,
+            "video_name": [
+                "網路基礎-16",
+                "網路基礎-7"
+            ]
+        }
+    }
+]
