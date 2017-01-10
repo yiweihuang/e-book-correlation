@@ -23,7 +23,7 @@ def process_pdf_json(path, done_path, mode):
             for order in pdf_txt[page]:
                 word_size_dict = {}
                 word = re.sub(r'[\u4e00-\u9fff]+', '', pdf_txt[page][order][0])
-                word = re.sub(r'[().,…:@]+', ' ', word)
+                word = re.sub(r'[().,…:@=]+', ' ', word)
                 size = pdf_txt[page][order][1]
                 word_arr = word.split(' ')
                 fit_word_arr = [x for x in word_arr if len(x) != 1 and x]
@@ -56,7 +56,7 @@ def process_page_to_size(path, done_path, mode):
             word_size_dict = {}
             for order in pdf_txt[page]:
                 word = re.sub(r'[\u4e00-\u9fff]+', '', pdf_txt[page][order][0])
-                word = re.sub(r'[().,…:@]+', ' ', word)
+                word = re.sub(r'[().,…:@=]+', ' ', word)
                 size = int(pdf_txt[page][order][1])
                 word_arr = word.split(' ')
                 fit_word_arr = [x for x in word_arr if len(x) != 1 and x]
@@ -85,7 +85,45 @@ def process_page_to_rows(path, done_path, mode):
             size_order_dict = {}
             for order in pdf_txt[page]:
                 word = re.sub(r'[\u4e00-\u9fff]+', '', pdf_txt[page][order][0])
-                word = re.sub(r'[().,…:@]+', ' ', word)
+                word = re.sub(r'[().,…:@=]+', ' ', word)
+                size = int(pdf_txt[page][order][1])
+                word_arr = word.split(' ')
+                fit_word_arr = [x for x in word_arr if len(x) != 1 and x]
+                fit_word_arr = [y for y in fit_word_arr if y not in cachedStopWords]
+                if fit_word_arr:
+                    word_order_dict[int(order)] = fit_word_arr
+                    size_order_dict[int(order)] = size
+                    page_dict[int(page)] = word_order_dict
+                    page_row_size[int(page)] = size_order_dict
+            last_row_size.append(list(size_order_dict.values())[-1])
+        most_common_size = Counter(last_row_size).most_common(1)[0][0]
+        for final in page_dict:
+            for row in list(page_dict[final]):
+                key = list(page_row_size[final].keys())[list(page_row_size[final].values()).index(most_common_size)]
+                try:
+                    page_dict[final].pop(key, None)
+                except KeyError:
+                    pass
+            sort_word_rows = OrderedDict(sorted(page_dict[final].items()))
+            temp_tool = []
+            for k in sort_word_rows:
+                temp_tool.append(sort_word_rows[k])
+            df = pd.DataFrame(list(itertools.product(*temp_tool)))
+            df.to_csv(done_path + 'page_to_rows/' + str(final) + '.csv', index=False, header=False)
+    f.close()
+
+def process_page_to_rows(path, done_path, mode):
+    with open(path) as f:
+        pdf_txt = json.load(f)
+        page_dict = {}
+        page_row_size = {}
+        last_row_size = []
+        for page in pdf_txt:
+            word_order_dict = {}
+            size_order_dict = {}
+            for order in pdf_txt[page]:
+                word = re.sub(r'[\u4e00-\u9fff]+', '', pdf_txt[page][order][0])
+                word = re.sub(r'[().,…:@=]+', ' ', word)
                 size = int(pdf_txt[page][order][1])
                 word_arr = word.split(' ')
                 fit_word_arr = [x for x in word_arr if len(x) != 1 and x]

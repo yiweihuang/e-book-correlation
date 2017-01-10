@@ -5,7 +5,7 @@ import sys
 import os
 
 if len(sys.argv) < 3:
-    print('Usage: python combine_ebook.py book/combine_1_2.en.text book/computernetwork-3.en.text')
+    print('Usage: python combine_ebook.py book_new/combine_1_2.en.text book_new/computernetwork-3.en.text')
     sys.exit()
 
 def combine_book(book1, book2):
@@ -16,7 +16,7 @@ def combine_book(book1, book2):
     data2 = fin.read()
     fin.close()
     combined_data = data1 + data2
-    fout = open("book/combine_1_2_3.en.text", "w")
+    fout = open("book_new/combine_1_2_3.en.text", "w")
     fout.write(combined_data)
     fout.close()
 
